@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(0deg, rgb(0 0 0 / 65%), rgb(4 1 1 / 35%)),
+    url("/style/img/fundo-pastel.jpg") center / cover no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background: linear-gradient(to right, #4a833e, #0f3809);
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 320px;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+}
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid#57f6ae;
+  border-radius: 8px;
+}
+button {
+  background: #55864c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover {
+  background: #84e58987;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  background: #f4f4f4;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+delete-btn {
+  background: crimson;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 6px;
+  cursor: pointer;
+}
